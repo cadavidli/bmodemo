@@ -15,7 +15,7 @@ class RestaurantList extends Component {
 				<ul>
 					{restaurants.map(function(restaurant){
 						return (
-							<li key={restaurant.id}>
+							<li key = {restaurant.id}>
                                 <h3>{restaurant.name}</h3>
 								<p>Address: {restaurant.address} {restaurant.city} {restaurant.state}</p>
 								<p>Price: {restaurant.price}</p>
